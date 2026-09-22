@@ -6,6 +6,13 @@ An offline-capable, standalone quotation workbench and pricing matrix applicatio
 
 ---
 
+## Live Application
+
+The interactive web application is deployed and hosted on GitHub Pages:
+👉 **[https://jraltd.github.io/cfm-Quote-Data-Tool/](https://jraltd.github.io/cfm-Quote-Data-Tool/)**
+
+---
+
 ## Overview
 
 The **CFM Quote Data Tool** (`cfm_quote_tool.html`) compiles equipment catalogs, pricing schedules, and accessory compatibility tables into a single portable application that runs locally in any web browser with zero external dependencies.
