@@ -688,7 +688,7 @@ def generate_html():
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CFM Distributors - HVACR Quote Data & Equipment Inventory Database</title>
+  <title>cfm Distributors - HVACR Quote Data & Equipment Inventory Database</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:wght@600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -1911,9 +1911,9 @@ def generate_html():
   <header class="header-band">
     <div class="header-inner">
       <a href="#" class="header-brand" onclick="switchTab('tab-all')">
-        {f'<img src="data:image/png;base64,{logo_b64}" alt="CFM Distributors" class="header-logo">' if logo_b64 else '<div style="font-size: 1.5rem; font-weight: 800; color: #1e82c8;">CFM</div>'}
+        {f'<img src="data:image/png;base64,{logo_b64}" alt="CFM Distributors" class="header-logo">' if logo_b64 else '<div style="font-size: 1.5rem; font-weight: 800; color: #1e82c8;">cfm</div>'}
         <div class="brand-titles">
-          <h1>CFM Distributors, Inc. <span class="version-tag">REL 092126</span></h1>
+          <h1>cfm Distributors, Inc. <span class="version-tag">REL 092126</span></h1>
           <p>HVACR Equipment Inventory, Pricing Matrix & Proposal System</p>
         </div>
       </a>
@@ -2237,9 +2237,9 @@ def generate_html():
       <div class="proposal-doc control-card" style="padding: 2.5rem;">
         <div style="display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 2px solid var(--primary-dark); padding-bottom: 1.5rem; margin-bottom: 1.75rem;">
           <div style="display: flex; align-items: center; gap: 1.25rem;">
-            {f'<img src="data:image/png;base64,{logo_b64}" alt="CFM Distributors" style="height: 52px; width: 52px; border-radius: 8px; object-fit: contain; box-shadow: 0 2px 6px rgba(0,0,0,0.12);">' if logo_b64 else '<div style="font-size: 1.75rem; font-weight: 800; color: #1e82c8;">CFM</div>'}
+            {f'<img src="data:image/png;base64,{logo_b64}" alt="CFM Distributors" style="height: 52px; width: 52px; border-radius: 8px; object-fit: contain; box-shadow: 0 2px 6px rgba(0,0,0,0.12);">' if logo_b64 else '<div style="font-size: 1.75rem; font-weight: 800; color: #1e82c8;">cfm</div>'}
             <div>
-              <div style="font-size: 1.35rem; font-weight: 800; color: #0d1f2d;">CFM Distributors, Inc.</div>
+              <div style="font-size: 1.35rem; font-weight: 800; color: #0d1f2d;">cfm Distributors, Inc.</div>
               <div style="font-size: 0.82rem; color: #64748b;">3513 E 14th St, Kansas City, MO 64127 | (816) 483-3111 | cfmdistributors.com</div>
             </div>
           </div>
