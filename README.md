@@ -1,8 +1,8 @@
-# CFM Quote Data Tool
+# cfm Quote Data Tool
 
 An offline-capable, standalone quotation workbench and pricing matrix application for CFM Distributors HVACR commercial equipment, residential split systems, packaged rooftop units (RTUs), and paired accessories.
 
-![CFM Quote Data Tool](cfm_logo.png)
+![cfm Quote Data Tool](cfm_logo.png)
 
 ---
 
