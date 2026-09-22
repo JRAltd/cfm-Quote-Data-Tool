@@ -3484,10 +3484,12 @@ def generate_html():
 </html>
 """
 
-    print("Writing cfm_quote_tool.html...")
+    print("Writing cfm_quote_tool.html and index.html (for GitHub Pages)...")
     with open(output_html, "w", encoding="utf-8") as f:
         f.write(html_template)
-    print(f"Successfully generated clean cfm_quote_tool.html ({os.path.getsize(output_html):,} bytes)!")
+    with open("index.html", "w", encoding="utf-8") as f:
+        f.write(html_template)
+    print(f"Successfully generated clean cfm_quote_tool.html and index.html ({os.path.getsize(output_html):,} bytes)!")
 
 if __name__ == "__main__":
     generate_html()
